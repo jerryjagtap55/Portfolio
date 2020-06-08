@@ -523,7 +523,7 @@
         right: 5rem;
         border-radius: 100%;
         display: flex;
-        animation: pulse 1.5s infinite;
+        animation: pulse 1.5s 5;
     }
     
     .up i {
