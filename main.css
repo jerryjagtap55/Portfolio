@@ -238,7 +238,7 @@
         z-index: 1500;
         transition: all 0.5s;
         transition-duration: ease-in-out;
-        animation: pulse 1.5s infinite;
+        animation: pulse 1.5s 7;
     }
     
     .menu-toggler.open {
