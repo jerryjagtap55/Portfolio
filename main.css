@@ -1,179 +1,630 @@
-<!DOCTYPE html>
-<html lang="en">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nishant Jagtap</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-</head>
-
-<body>
-    <header>
-        <div class="menu-toggler">
-            <div class="bar half start"></div>
-            <div class="bar"></div>
-            <div class="bar half end"></div>
-        </div>
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li>
-                    <a href="#services" class="nav-link">Services</a>
-                </li>
-                <li>
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="landing-text">
-            <h1>Nishant Jagtap</h1>
-            <h6>Web Developer</h6>
-        </div>
-    </header>
-    <section class="about" id="about">
-
-        <div class="container">
-            <div class="box">
-                <div class="profile-img" id="imgBx">
-                    <img src="images/picture.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h2>Nishant Jagtap <br><span>Creative Designer</span></h2>
-                </div>
-            </div>
-            <div class="about-details">
-                <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, quia, harum repellat, perspiciatis minus eaque voluptatibus velit consequatur esse sequi molestias dolorum facere omnis ab nostrum! Cupiditate eaque saepe nesciunt.</p>
-                <div class="social-media">
-                    <ul class="nav-list">
-                        <li>
-                            <a href="https://www.facebook.com/nishant.jagtap.37?ref=bookmarks" class="icon-link"> <i class="fab fa-facebook-square"></i> </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/NishJagtap" class="icon-link"> <i class="fab fa-twitter-square"></i> </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/jerryjagtap55" class="icon-link"> <i class="fab fa-github-square"></i> </a>
-                        </li>
-                        <li>
-                            <a href="https://jerry.jagtap5@gmail.com" class="icon-link"> <i class="fas fa-at"></i> </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Services</h1>
-                <h6>What I can do for you</h6>
-            </div>
-            <div class="my-skills">
-                <div class="skill">
-                    <div class="icon-container">
-                        <i class="fas fa-layer-group">
-                        </i>
-                    </div>
-                    <div class="skill">
-                        <h1>Web Design</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid aspernatur unde ipsa, at quo corporis iste recusandae voluptatum fugiat labore libero ad nihil. Delectus, omnis vitae ducimus consequuntur tempora sint.</p>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="icon-container">
-                        <i class="fas fa-file-code">
-                        </i>
-                    </div>
-                    <h1>Web Development</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid aspernatur unde ipsa, at quo corporis iste recusandae voluptatum fugiat labore libero ad nihil. Delectus, omnis vitae ducimus consequuntur tempora sint.</p>
-                </div>
-                <div class="skill">
-                    <div class="icon-container">
-                        <i class="fab fa-python"></i>
-                    </div>
-                    <h1>Python</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid aspernatur unde ipsa, at quo corporis iste recusandae voluptatum fugiat labore libero ad nihil. Delectus, omnis vitae ducimus consequuntur tempora sint.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="project" id="project">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Projects</h1>
-                <h6>View some projects</h6>
-            </div>
-            <div class="project-item">
-                <div class="project-img has-margin-right">
-                    <img src="images/portitem1.jpg" alt="">
-                </div>
-                <div class="project-discription">
-                    <h6>Web Development</h6>
-                    <h1>Landing Page</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam commodi itaque earum reiciendis quae eos, architecto rerum excepturi pariatur quisquam error nisi dignissimos culpa perferendis placeat voluptate vitae, dicta libero.
-                    </p>
-                    <a href="https://jerryjagtap55.github.io/MyJoneryProject/" class="cta">View Details</a>
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-img has-margin-right">
-                    <img src="images/portitem2.jpeg" alt="">
-                </div>
-                <div class="project-discription">
-                    <h6>Web Layout</h6>
-                    <h1>Landing Page</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam commodi itaque earum reiciendis quae eos, architecto rerum excepturi pariatur quisquam error nisi dignissimos culpa perferendis placeat voluptate vitae, dicta libero.
-                    </p>
-                    <a href="https://jerryjagtap55.github.io/MyJoneryProject/" class="cta">View Details</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <div class="contact">
-            <div class="section-heading">
-                <h1>Contact</h1>
-                <h6>Get in touch with me...
-                </h6>
-
-            </div>
-            <form action="">
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name" placeholder="Enter your Name..." required>
-                <label for="email">E-mail: </label>
-                <input type="email" id="email" name="name" placeholder="Enter your E-mail..." required>
-                <input type="submit" value="submit">
-            </form>
-        </div>
-    </section>
-    <footer class="copyright">
-        <div class="up" id="up">
-            <i class="far fa-copyright"></i>
-        </div>
-        <p>2020 Nishant Jagtap</p>
-    </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="main.js"></script>
-</body>
-
-</html>
+    /*Start global*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 11px;
+        color: #eeeeee;
+    }
+    
+    img {
+        width: 200px;
+        height: auto;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+        background: url("images/sitebg.jpg") no-repeat center fixed;
+        background-size: cover;
+        align-items: center;
+    }
+    
+    section {
+        padding: 4rem 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #eeeeee;
+    }
+    
+    p {
+        font-size: 1.7em;
+        font-weight: 290;
+    }
+    
+    .box {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        background: #060c21;
+        transition: 0.3s;
+    }
+    
+    .box #imgBx {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    .box #imgBx img {
+        max-width: 100%;
+        opacity: 0.05;
+        transition: 0.2s;
+    }
+    
+    .box:hover #imgBx img {
+        opacity: 1;
+    }
+    
+    .box::before {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: #fff;
+        z-index: -1;
+    }
+    
+    .box::after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: #fff;
+        z-index: -2;
+        filter: blur(40px);
+    }
+    
+    .box::before,
+    .box::after {
+        background: linear-gradient(235deg, #40E0D0, #FF8C00, #FF0080);
+    }
+    
+    .box .content {
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    .box:hover .content {
+        opacity: 1;
+    }
+    /*End global*/
+    /*Start reusable*/
+    
+    .container {
+        width: 90%;
+        max-width: 120rem;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .section-heading {
+        text-align: center;
+        margin-top: 10rem;
+    }
+    
+    .section-heading h1 {
+        font-size: 3rem;
+        color: #fff 0.3;
+        text-transform: uppercase;
+        font-weight: 300;
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    
+    .section-heading h1::before,
+    .section-heading h1::after {
+        content: '';
+        position: absolute;
+        bottom: -0.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fff 0.75;
+    }
+    
+    .section-heading h1::before {
+        width: 10rem;
+        height: 3px;
+        border-radius: 0.8rem;
+    }
+    
+    .section-heading h1::after {
+        width: 1.5rem;
+        height: 1.5px;
+        border-radius: 100%;
+        bottom: 1rem;
+    }
+    
+    .section-heading h6 {
+        font-size: 1.7rem;
+        font-weight: 300;
+        margin-bottom: 5rem;
+    }
+    
+    .has-margin-right {
+        margin-right: 5rem;
+    }
+    /*End reusable*/
+    /*Start header*/
+    
+    header {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .top-nav {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: -100vh;
+        z-index: 50;
+        background-color: #16162d;
+        border-bottom-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        transition: all 650ms cubic-bezier(1, 0, 0, 1);
+    }
+    
+    .nav-list {
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    li {
+        margin: 0 2em;
+    }
+    
+    .nav-link {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 5rem;
+        padding: 1rem;
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus {
+        background: linear-gradient(to top, #FF416C, #FF4B2B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .top-nav.open {
+        top: 0;
+        border-radius: initial;
+    }
+    
+    .menu-toggler {
+        position: fixed;
+        top: 5rem;
+        right: 5rem;
+        width: 2.75rem;
+        height: 2.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 1500;
+        transition: all 0.5s;
+        transition-duration: ease-in-out;
+        animation: pulse 1.5s infinite;
+    }
+    
+    .menu-toggler.open {
+        transform: rotate(-540deg);
+    }
+    
+    .bar {
+        background: linear-gradient(to right, #43cea2, #185a9d);
+        width: 100%;
+        height: 4px;
+        border-radius: 0.9rem;
+    }
+    
+    .bar.half {
+        width: 50%;
+    }
+    
+    .bar.start {
+        transform-origin: right;
+        transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    }
+    
+    open.bar.start {
+        transform: rotate(-180deg) translateX(0.8rem);
+    }
+    
+    .bar.end {
+        align-self: flex-end;
+        transform-origin: left;
+        transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    }
+    
+    open.bar.end {
+        transform: rotate(-180deg) translateX(-0.8rem);
+    }
+    
+    .landing-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    .landing-text h1 {
+        font-size: 8rem;
+        font-family: 'Permanent Marker', cursive;
+        background: linear-gradient(to top, #fc4a1a, #f7b733);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 1rem;
+        user-select: none;
+    }
+    
+    .landing-text h6 {
+        font-size: 2.5rem;
+        font-weight: 350;
+    }
+    /*End header*/
+    /*Start about*/
+    
+    .about .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about-heading {
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 0;
+        margin-bottom: 7rem;
+    }
+    
+    .about-heading h1 {
+        font-size: 10rem;
+        opacity: 0.25;
+    }
+    
+    .about-heading h6 {
+        font-size: 3rem;
+        font-weight: 250;
+    }
+    
+    .profile-img {
+        flex: 1;
+        margin-right: 7rem;
+    }
+    
+    .profile-img img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .about-details {
+        flex: 1;
+    }
+    
+    .social-media {
+        margin-top: 5rem;
+        z-index: 1;
+    }
+    
+    .social-media i {
+        font-size: 7rem;
+        transition: color 400ms;
+    }
+    
+    .fa-facebook-square:hover {
+        color: #4267b2;
+    }
+    
+    .fa-twitter-square:hover {
+        color: #38a1f3;
+    }
+    
+    .fa-github-square:hover {
+        color: #211F1F;
+    }
+    
+    .fa-at:hover {
+        color: #B23121;
+    }
+    /*End about*/
+    /*Start services*/
+    
+    .my-skills {
+        margin-top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, min(25rem, 1fr));
+        text-align: center;
+        align-items: center;
+    }
+    
+    .skill {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+    }
+    
+    .icon-container {
+        height: 10rem;
+        width: 10rem;
+        border: 2px solid #80d0c7;
+        background-color: #FF8C00;
+        margin-bottom: 2rem;
+        display: flex;
+        transform: rotate(45deg);
+    }
+    
+    .icon-container i {
+        color: #000;
+        font-size: 5rem;
+        margin: auto;
+        transform: rotate(-45deg);
+    }
+    
+    .skill h1 {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin: 3rem -3px 3rem 0;
+    }
+    
+    .skill p {
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        font-family: monospace;
+        color: #000;
+        background: linear-gradient(-45deg, #00c3ff, #ffff1c);
+    }
+    /*End services*/
+    /*Start poject*/
+    
+    .project-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    
+    .project-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .profile-img {
+        width: 50rem;
+        flex: 1;
+    }
+    
+    .project-discription {
+        flex: 1;
+    }
+    
+    .project-discription h6 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        opacity: 0.45;
+    }
+    
+    .project-discription h1 {
+        font-size: 3rem;
+        font-weight: 300;
+        margin: 1rem 0;
+    }
+    
+    .project-discription .cta {
+        display: inline-block;
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: #FF8C00;
+        transition: color 650ms;
+    }
+    
+    .project-discription .cta:hover {
+        color: #24fe41;
+    }
+    /*End project*/
+    /*Start timeline*/
+    /*End timeline*/
+    /*Start contact*/
+    
+    .contact {
+        background-color: #221e3f;
+    }
+    
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    form label {
+        font-size: 1.5rem;
+    }
+    
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 5px;
+        border: none;
+        outline-color: #24fe41;
+    }
+    
+    input[type="submit"] {
+        width: initial;
+        background-color: #43cea2;
+        color: #16162d;
+        padding: 1rem 2rem;
+        border-radius: 0.7rem;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #16162d;
+        color: #43cea2;
+    }
+    /*End contact*/
+    /*Start footer*/
+    
+    .copyright {
+        width: 100%;
+        text-align: center;
+        background-color: #16162d;
+        padding: 2rem 0;
+        position: relative;
+    }
+    
+    .up {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        background-color: #eeeeee;
+        top: -2.5rem;
+        right: 5rem;
+        border-radius: 100%;
+        display: flex;
+        animation: pulse 1.5s infinite;
+    }
+    
+    .up i {
+        color: #16162d;
+        font-size: 2rem;
+        margin: auto;
+    }
+    /*End footer*/
+    /*Start animations*/
+    
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgba( 67, 206, 197, 0.99);
+        }
+        60% {
+            box-shadow: 0 0 0 2rem rgba( 67, 206, 197, 0);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgba( 67, 206, 197, 0);
+        }
+    }
+    /*End animations*/
+    /*Start media queries*/
+    
+    @media screen and (max-width: 768px) {
+        body {
+            background: url("images/sitebg2.jpg") no-repeat center fixed;
+            background-size: cover;
+        }
+        .landing-text h1 {
+            font-size: 15rem;
+        }
+        .landing-text h6 {
+            font-size: 1.7rem;
+        }
+        .nav-list {
+            flex-direction: column;
+        }
+        li {
+            margin: 2rem 0;
+        }
+        .nav-link {
+            font-size: 4.5rem;
+        }
+        .about-heading h1 {
+            font-size: 8rem;
+        }
+        .section-heading h1 {
+            font-size: 3rem;
+        }
+        .about-details.nav-list {
+            flex-direction: initial;
+        }
+        .about-details li {
+            margin: 0 2rem;
+        }
+        .icon-container {
+            width: 7rem;
+            height: 7rem;
+        }
+        .icon-container i {
+            font-size: 4rem;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .menu-toggler {
+            top: 2rem;
+            right: 2rem;
+        }
+        .landing-text h1 {
+            font-size: 8rem;
+        }
+        .landing-text h6 {
+            font-size: 1.4rem;
+        }
+        .nav-link {
+            font-size: 3.5rem;
+        }
+        .about .container {
+            flex-direction: column;
+        }
+        .profile-img {
+            margin: 0 0 7rem 0;
+        }
+        .project-item {
+            flex-direction: column;
+        }
+        .project-img {
+            margin: 0 0 2rem 0;
+            order: 1;
+        }
+        .project-discription {
+            margin: 0em;
+            order: 2;
+        }
+        form {
+            width: 100%;
+        }
+        .up {
+            right: 2.5rem;
+        }
+    }
+    /*End media queries*/
